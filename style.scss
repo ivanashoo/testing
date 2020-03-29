@@ -1,0 +1,69 @@
+@import "./BASE/colors";
+
+
+body {
+    background-color: $back;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 0em 2em;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 14em;
+    font-family: monospace;
+    font-weight: bold;
+    color: $naslov-button;
+}
+
+header {
+    text-align: center;
+}
+
+input {
+    background-color: $back-input;
+    border: 1px solid black;
+    padding: 2em;
+    display: inline-block;
+    width: 50vw;
+
+    font-size: 1em;
+    font-style: italic;
+}
+
+button {
+    color: white;
+    background-color: $naslov-button;
+
+    font-weight: bold;
+    border-radius: 55%;
+    cursor: pointer;
+
+    padding: 2em;
+}
+
+
+/* MAIN*/
+ul  {
+    padding: 2em;
+        
+    list-style-type: none;
+    font-size: 15px;
+    
+    background-color: $list-back;
+    box-shadow: 8px 8px 10px grey;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px solid black;
+
+
+}
+
+li {
+    padding: 1em;
+    border-bottom: 1px dotted $li-border;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
